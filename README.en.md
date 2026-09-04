@@ -55,12 +55,6 @@ No installation is required. Do not run the application directly from the ZIP ar
 3. To switch, select the desired profile from the list and click "Launch".
 4. To start a clean new session, click "New Session".
 
-Profiles are stored locally in `%USERPROFILE%\.codex\_saved_accounts`.
-
-> **Security note:** Profiles contain local authorization tokens (`auth.json`). Never upload or share your profile folder with anyone.
-
-*This is an independent, unofficial utility and is not affiliated with or endorsed by OpenAI.*
-
 ## License
 
 Copyright © 2026 CodoMagia. All rights reserved.
