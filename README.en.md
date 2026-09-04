@@ -42,7 +42,7 @@ No installation is required. Do not run the application directly from the ZIP ar
 
 - **Supports all versions:** works seamlessly with installed versions (including Microsoft Store) and portable builds.
 - **Multiple accounts:** save any number of profiles with custom names.
-- **Safe switching:** validates `auth.json` before and after copying, automatically rolls back on error.
+- **Safe switching:** validates before and after, automatically rolls back on error.
 - **Auto-sync:** updates the outgoing profile automatically before switching to another account.
 - **Fast launch & shortcuts:** create desktop shortcuts for instant login into a specific profile or into a fresh session.
 - **Automatic process guard:** detects running Codex processes in Windows and blocks operations to prevent session corruption.
