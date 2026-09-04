@@ -4,9 +4,11 @@
 
 <img align="right" src="assets/logo.png" alt="Codex Account Switcher" width="220" height="220">
 
-A local Windows utility for saving and quickly switching accounts in the portable Codex Desktop application.
+A local Windows utility for saving and quickly switching accounts in the Codex Desktop application.
 
 Easily manage multiple accounts under recognizable names, switch between them in one click, launch Codex, and create desktop shortcuts for each profile or for a new sign-in session.
+
+Supports **both the official [Microsoft Store](https://apps.microsoft.com/detail/9nxq8fg885bb) / installer version and portable builds** of Codex.
 
 **Version:** 1.0.0  
 **Author:** [CodoMagia](https://github.com/codomagia)  
@@ -24,7 +26,7 @@ Builds are available in [Releases](https://github.com/codomagia/CodexAccountSwit
 2. Download `Codex-Account-Switcher-1.0.0.zip`.
 3. Extract the archive to a permanent folder.
 4. Run `Codex Account Switcher.exe`.
-5. In Settings, select the portable `ChatGPT.exe`.
+5. If needed, select your `ChatGPT.exe` or `codex.exe` in Settings (or the app will discover it automatically on launch).
 
 No installation is required. Do not run the application directly from the ZIP archive.
 
@@ -32,17 +34,18 @@ No installation is required. Do not run the application directly from the ZIP ar
 
 - Windows 10 or Windows 11
 - .NET Framework 4.7.2 or newer
-- A portable Codex Desktop distribution containing `ChatGPT.exe` and `resources\codex.exe`
-
-The Microsoft Store version of Codex is not supported yet.
+- Codex Desktop application:
+  - Official version from the [Microsoft Store](https://apps.microsoft.com/detail/9nxq8fg885bb) or installer
+  - **OR** any standalone portable build containing `ChatGPT.exe` / `codex.exe`
 
 ## Features
 
+- **Supports all versions:** works seamlessly with installed versions (including Microsoft Store) and portable builds.
 - **Multiple accounts:** save any number of profiles with custom names.
 - **Safe switching:** validates `auth.json` before and after copying, automatically rolls back on error.
 - **Auto-sync:** updates the outgoing profile automatically before switching to another account.
 - **Fast launch & shortcuts:** create desktop shortcuts for instant login into a specific profile or into a fresh session.
-- **Process protection:** prevents profile operations while Codex is running to avoid session corruption.
+- **Automatic process guard:** detects running Codex processes in Windows and blocks operations to prevent session corruption.
 - **100% offline & private:** works entirely on your PC, includes no telemetry, and sends no data to remote servers.
 
 ## How to use
