@@ -6,9 +6,9 @@
 
 Windows utility for saving and quickly switching accounts in the ChatGPT Codex application.
 
-Easily manage multiple accounts under recognizable names, switch between them in one click, launch Codex, and create desktop shortcuts for each profile or for a new sign-in session.
+Easily manage multiple accounts under recognizable names, switch between them in one click, launch ChatGPT Codex, and create desktop shortcuts for each profile or for a new sign-in session.
 
-Supports **both the official [Microsoft Store](https://apps.microsoft.com/detail/9nxq8fg885bb) / installer version and portable builds** of Codex.
+Supports **both the official [Microsoft Store](https://apps.microsoft.com/detail/9nxq8fg885bb) / installer version and portable builds** of ChatGPT Codex.
 
 **Version:** 1.0.0  
 **Author:** [CodoMagia](https://github.com/codomagia)  
@@ -34,7 +34,7 @@ No installation is required. Do not run the application directly from the ZIP ar
 
 - Windows 10 or Windows 11
 - .NET Framework 4.7.2 or newer
-- Codex Desktop application:
+- ChatGPT Codex application:
   - Official version from the [Microsoft Store](https://apps.microsoft.com/detail/9nxq8fg885bb) or installer
   - **OR** any standalone portable build containing `ChatGPT.exe` / `codex.exe`
 
@@ -45,12 +45,12 @@ No installation is required. Do not run the application directly from the ZIP ar
 - **Safe switching:** validates before and after, automatically rolls back on error.
 - **Auto-sync:** updates the outgoing profile automatically before switching to another account.
 - **Fast launch & shortcuts:** create desktop shortcuts for instant login into a specific profile or into a fresh session.
-- **Automatic process guard:** detects running Codex processes in Windows and blocks operations to prevent session corruption.
+- **Automatic process guard:** detects running ChatGPT Codex processes in Windows and blocks operations to prevent session corruption.
 - **100% offline & private:** works entirely on your PC, includes no telemetry, and sends no data to remote servers.
 
 ## How to use
 
-1. Close Codex if it is currently running.
+1. Close ChatGPT Codex if it is currently running.
 2. Save your current account as a profile (click "Save Profile").
 3. To switch, select the desired profile from the list and click "Launch".
 4. To start a clean new session, click "New Session".
