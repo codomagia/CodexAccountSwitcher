@@ -4,7 +4,7 @@
 
 <img align="right" src="assets/logo.png" alt="Codex Account Switcher" width="220" height="220">
 
-Windows utility for saving and quickly switching accounts in the Codex Desktop application.
+Windows utility for saving and quickly switching accounts in the ChatGPT Codex application.
 
 Easily manage multiple accounts under recognizable names, switch between them in one click, launch Codex, and create desktop shortcuts for each profile or for a new sign-in session.
 
